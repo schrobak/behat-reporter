@@ -1,0 +1,35 @@
+{
+  "name": "schroba/behat-reporter",
+  "type": "behat-extension",
+  "description": "Behat extension that generates nice HTML reports and statistics",
+  "keywords": ["html", "formatter", "report", "statistic"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sławomir Chrobak",
+      "email": "slawomir.chrobak@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "behat/behat": "~3.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~2.1",
+    "phpspec/prophecy-phpunit": "~1.0",
+    "phpunit/phpunit": "~4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Behat\\Reporter\\": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
