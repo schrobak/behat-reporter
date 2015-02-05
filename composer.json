@@ -24,6 +24,11 @@
       "Behat\\Reporter\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Behat\\Reporter\\Context\\": "features/bootstrap/"
+    }
+  },
   "config": {
     "bin-dir": "bin/"
   },
