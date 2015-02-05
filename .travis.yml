@@ -20,3 +20,6 @@ after_script:
 addons:
   code_climate:
     repo_token: 05c5be7909d8a8b2778848cdff46a725a77d3c4aa61144a0484e9537e8d395cf
+
+notifications:
+  email: false
