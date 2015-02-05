@@ -1,0 +1,22 @@
+language: php
+
+php:
+  - 5.3.3
+  - 5.3
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm
+
+before_script:
+  - composer self-update
+  - composer install -n --prefer-dist
+
+script: bin/phpspec run -n --no-code-generation && bin/behat -n --no-snippets --lang en
+
+after_script:
+  - bin/test-reporter
+
+addons:
+  code_climate:
+    repo_token: 05c5be7909d8a8b2778848cdff46a725a77d3c4aa61144a0484e9537e8d395cf
