@@ -1,0 +1,6 @@
+formatter.name: pretty
+
+suites:
+  default:
+    namespace: Behat\Reporter
+    psr4_prefix: Behat\Reporter
