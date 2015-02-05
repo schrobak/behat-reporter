@@ -86,6 +86,7 @@ class HtmlFormatter implements Formatter
      */
     public function handleEvent(Event $event)
     {
+        $this->outputPrinter->writeln($event->getName());
         $this->eventHandler->handle($event);
     }
 }
