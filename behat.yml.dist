@@ -1,0 +1,9 @@
+formatters:
+  progress: ~
+
+default:
+  suites:
+    formatters:
+      paths: [ %paths.base%/features ]
+      contexts:
+        - Behat\Reporter\Context\BehatContext
