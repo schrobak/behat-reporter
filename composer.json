@@ -4,6 +4,7 @@
   "description": "Behat extension that generates nice HTML reports and statistics",
   "keywords": ["html", "formatter", "report", "statistic"],
   "license": "MIT",
+  "version": "0.1.0",
   "authors": [
     {
       "name": "Sławomir Chrobak",
